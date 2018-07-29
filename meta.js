@@ -46,7 +46,7 @@ module.exports = {
         }
     },
     "filters": {
-       "src/vuex/**/*": "state === 'vuex'"
+       "src/store/**/*": "state === 'vuex'"
     },
     "completeMessage": "To get started:\n\n  cd {{destDirName}}\n  npm install\n  npm run dev\n\nDocumentation can be found at https://github.com/dwqs/vue-startup"
 }
