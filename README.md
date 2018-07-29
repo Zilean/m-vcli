@@ -1,2 +1,2 @@
 # m-vcli
-mobile vue-cli
+A mobile template with Vue CLI 3 setup for projects startup.

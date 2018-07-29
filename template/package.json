@@ -1,0 +1,60 @@
+{
+  "name": "dswp-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fullbook/dswp-web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fullbook/dswp-web/issues"
+  },
+  "homepage": "https://github.com/Fullbook/dswp-web#readme",
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "dev-build": "vue-cli-service build --api=dev",
+    "pre-build": "yarn install && vue-cli-service build --api=pre",
+    "prod-build": "yarn install && vue-cli-service build --api=prod",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "better-scroll": "^1.12.4",
+    "crypto-js": "^3.1.9-1",
+    "fastclick": "^1.0.6",
+    "register-service-worker": "^1.0.0",
+    "store": "^2.0.12",
+    "vant": "^1.1.10",
+    "vue": "^2.5.16",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0-rc.5",
+    "@vue/cli-plugin-eslint": "^3.0.0-rc.5",
+    "@vue/cli-plugin-pwa": "^3.0.0-rc.5",
+    "@vue/cli-service": "^3.0.0-rc.5",
+    "@vue/eslint-config-prettier": "^3.0.0-rc.5",
+    "babel-plugin-import": "^1.8.0",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "lint-staged": "^7.2.0",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.js": [
+      "vue-cli-service lint",
+      "git add"
+    ],
+    "*.vue": [
+      "vue-cli-service lint",
+      "git add"
+    ]
+  }
+}
