@@ -8,12 +8,13 @@ module.exports = {
         },
         "author": {
             "type"   : "string",
-            "message": "Author"
+            "message": "Author",
+            "default": "Iboy"
         },
         "version": {
             "type"    : "string",
             "message" : "Project version",
-            "default" : "0.0.1"
+            "default" : "1.0.0"
         },
         "description": {
             "type"    : "string",
@@ -48,5 +49,5 @@ module.exports = {
     "filters": {
        "src/store/**/*": "state === 'vuex'"
     },
-    "completeMessage": "To get started:\n\n  cd {{destDirName}}\n  npm install\n  npm run dev\n\nDocumentation can be found at https://github.com/dwqs/vue-startup"
+    "completeMessage": "To get started:\n\n  cd {{destDirName}}\n  npm install\n  npm run dev\n\nDocumentation can be found at https://github.com/Zilean/m-vcli.git"
 }

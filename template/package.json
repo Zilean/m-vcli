@@ -1,14 +1,14 @@
 {
-  "name": "dswp-web",
-  "version": "1.0.0",
-  "description": "",
+  "name": "{{ name }}",
+  "version": "{{ version }}",
+  "description": "{{ description }}",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Fullbook/dswp-web.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "{{ author }}",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Fullbook/dswp-web/issues"
   },
@@ -29,8 +29,9 @@
     "store": "^2.0.12",
     "vant": "^1.1.10",
     "vue": "^2.5.16",
-    "vue-router": "^3.0.1",
+    "vue-router": "^3.0.1"{{#if_eq state 'vuex'}},
     "vuex": "^3.0.1"
+    {{/if_eq}}
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.0-rc.5",

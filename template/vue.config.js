@@ -16,7 +16,7 @@ process.env.VUE_APP_API = apiEnv || "local";
 module.exports = {
   devServer: {
     open: true,
-    port: 7778,
+    port: {{ port }},
     inline: true,
     proxy: {
       "/api": {

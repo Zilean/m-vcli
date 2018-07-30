@@ -10,7 +10,10 @@ import Sto from "store";
 
 import Router from "@/utils/routerConfig.js";
 import App from "@/App.vue";
+{{#if_eq state 'vuex'}}
 import store from "@/store";
+{{/if_eq}}
+
 import { getRouterData } from "@/router";
 import { Config } from "@/utils/";
 
@@ -38,7 +41,9 @@ if (process.env.NODE_ENV === "production") {
 }
 
 new Vue({
+  {{#if_eq state 'vuex'}}
   store,
+  {{/if_eq}}
   router: getRouterData(),
   render: h => h(App)
 }).$mount("#app");
