@@ -20,7 +20,7 @@ module.exports = {
     inline: true,
     proxy: {
       "/api": {
-        target: "http://mcwp.test.zhudb.com/backend",
+        target: "http://admin.sosout.com/backend",
         ws: true,
         changeOrigin: true,
         pathRewrite: {

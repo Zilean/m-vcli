@@ -9,7 +9,7 @@ module.exports = {
         "author": {
             "type"   : "string",
             "message": "Author",
-            "default": "Iboy"
+            "default": "Weich"
         },
         "version": {
             "type"    : "string",

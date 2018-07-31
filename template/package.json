@@ -5,14 +5,14 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Fullbook/dswp-web.git"
+    "url": "git+https://github.com/.../*.git"
   },
   "author": "{{ author }}",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Fullbook/dswp-web/issues"
+    "url": "https://github.com/.../.../issues"
   },
-  "homepage": "https://github.com/Fullbook/dswp-web#readme",
+  "homepage": "https://github.com/.../...#readme",
   "scripts": {
     "dev": "vue-cli-service serve",
     "dev-build": "vue-cli-service build --api=dev",
