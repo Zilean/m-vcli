@@ -1,6 +1,6 @@
 [English](./README.md) | 简体中文
 
-# dswp-wap
+# my-project
 
 自定义移动前端/设计解决方案。
 
@@ -56,7 +56,7 @@
 
 ```bash
 $ git clone
-$ cd dswp-wap
+$ cd my-project
 $ npm install
 $ npm run dev         # 访问 http://localhost:8889
 ```
@@ -68,4 +68,4 @@ $ npm run dev         # 访问 http://localhost:8889
 我们非常欢迎你的贡献，你可以通过以下方式和我们一起共建 :smiley:：
 
 - 通过 [Issue](../issues) 报告 bug 或进行咨询。
-- 提交 [Pull Request](.../pulls) 改进 dswp-wap 的代码。
+- 提交 [Pull Request](.../pulls) 改进 my-project 的代码。
